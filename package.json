@@ -1,0 +1,23 @@
+{
+  "name": "babel-rtts-helper",
+  "version": "0.0.0",
+  "description": "Helper functions to handle rtts_assert types on babel.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^5.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "babel",
+    "rtts_assert",
+    "type"
+  ],
+  "author": "Shuhei Kagawa <shuhei.kagawa@gmail.com>",
+  "license": "ISC"
+}
