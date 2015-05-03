@@ -1,6 +1,6 @@
 {
   "name": "babel-rtts-helper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Helper functions to handle rtts_assert types on babel.",
   "main": "index.js",
   "dependencies": {
