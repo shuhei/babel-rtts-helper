@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "description": "Helper functions to handle rtts_assert types on babel.",
   "main": "index.js",
-  "dependencies": {
-    "babel-core": "^5.0.0"
-  },
   "devDependencies": {
+    "babel-core": "^5.0.0",
     "tape": "^4.0.0"
   },
   "scripts": {

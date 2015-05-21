@@ -1,9 +1,8 @@
 'use strict';
 
-var babel = require('babel-core');
-var t = babel.types;
+module.exports = function (babel, assertName) {
+  var t = babel.types;
 
-module.exports = function (assertName) {
   return {
     primitive: primitive,
     genericType: genericType,

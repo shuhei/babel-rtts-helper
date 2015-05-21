@@ -1,7 +1,8 @@
 'use strict';
 
+var babel = require('babel-core');
 var test = require('tape');
-var types = require('./index')('assert');
+var types = require('./index')(babel, 'assert');
 
 test('primitive string', function (t) {
   var primitive = types.primitive('string');
